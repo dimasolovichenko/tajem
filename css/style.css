@@ -1,5 +1,6 @@
-﻿body
-
+﻿body {
+margin: 0;
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -28,9 +29,6 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
 }
-section {
-   padding: 0 60px;
-}
 .tittle {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -46,7 +44,6 @@ section {
    border: 1px solid #00e0d0;
    padding: 15px;
    box-sizing: border-box;
-
 }
 .button:hover {
   color: #fff;
@@ -55,81 +52,17 @@ section {
 .inverse {
   color: #fff;
 }
-
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
+header {
+   position: relative;
 }
 .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-position: 50% 50%;
-  background-size: cover;
-}
-.background img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  object-fit: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   object-fit: cover;
 }
 .foreground {
-  position: relative;
-  height: 50vh;
-  width: 100%;
-}
-
-nav {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-nav a {
-  padding: 10px 20px;
-}
-nav a:hover {
-  color: #00e0d0;
-}
-header {
-  padding: 20px 0;
-}
-.main-header {
-  position: relative;
-}
-.logo-nav-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.slider {
-  width: 60%;
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  text-align: center;
-}
-.slide > * {
-  margin-bottom: 50px;
-}
-.hedding::after {
-  content: '';
-}
-
-.section-ourstory {
-   display: flex;
-   flex-wrap: wrap;
-}
-.image-side {
-   width: 30%;
-}
-.main-side {
-   width: 70%;
-}
-.ourstory, ourstory-body {
-   margin-bottom: 50px;
+   position: relative;
 }
